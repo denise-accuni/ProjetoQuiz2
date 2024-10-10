@@ -1,0 +1,57 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 24px; /* Tamanho de letra ideal para idosos */
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Quiz container styles */
+  #quiz-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Adiciona um efeito de curva ao container */
+  }
+  
+  /* Question styles */
+  h2 {
+    margin-top: 0;
+    color: #2E865F; /* Cor verde para os títulos */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #337AB7; /* Cor azul para as opções */
+  }
+  
+  /* Submit button styles */
+  #submit-button {
+    background-color: #4CAF50; /* Cor verde para o botão */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submit-button:hover {
+    background-color: #3e8e41;
+  }
